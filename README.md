@@ -32,14 +32,14 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## ⚡ Project Structure
-"""
+
 careerfit-ai/
 │── app.py          # Main Streamlit app
 │── styles.css      # Custom CSS styling
 │── config.toml     # Streamlit theme settings
 │── requirements.txt # Dependencies
 └──README.md       # Project docs
-"""
+
 
 ## 🌟 Why CareerFit AI?
 
