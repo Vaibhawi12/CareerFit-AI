@@ -1,0 +1,5 @@
+Requirements:
+streamlit
+PyMuPDF
+docx2txt
+google-generativeai
