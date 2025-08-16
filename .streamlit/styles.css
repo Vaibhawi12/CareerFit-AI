@@ -1,0 +1,80 @@
+/* Animated Gradient Background */
+.stApp {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #faacec, #fbc2eb);
+    background-size: 300% 300%;
+    animation: gradientMove 8s ease infinite;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Title Gradient */
+.title-gradient {
+    text-align: center;
+    font-size: 3em;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtitle Pastel White */
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+}
+
+/* Upload Resume Box */
+[data-testid="stFileUploader"] section {
+    background-color: hwb(318 63% 0% / 0.225);
+    border-radius: 15px;
+    border: 2px dashed #ffffff;
+    padding: 15px;
+    color: #333;
+}
+[data-testid="stFileUploader"] section:hover {
+    background-color: #ffe0f0;
+    border-color: #ff1493;
+}
+
+/* Job Description Box Styling */
+[data-testid="stTextArea"] {
+    background-color: rgba(255, 192, 203, 0.2);
+    border-radius: 15px;
+    border: 2px dashed #ffffff;
+    padding: 10px;
+}
+
+[data-testid="stTextArea"] textarea {
+    background-color: transparent;
+    color: #333;
+    font-size: 14px;
+    border: none;
+    resize: vertical;
+}
+
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(90deg, #ff6ec4, #7873f5);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.stButton>button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff6ec4;
+}
+
+/* Gradient Animation Keyframes */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
