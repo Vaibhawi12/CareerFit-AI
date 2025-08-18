@@ -2,7 +2,6 @@
 
 [![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Gemini](https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
 
 ✨ **CareerFit AI** is your personal AI-powered career assistant.  
 It helps job seekers **optimize resumes**, **match with job descriptions**, and **get interview-ready** with smart AI insights.  
